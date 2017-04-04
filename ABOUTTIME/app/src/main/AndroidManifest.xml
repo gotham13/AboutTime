@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhinavgautam.abouttime">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main3Activity"
+            android:screenOrientation="portrait" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver android:name=".Main3Activity$UtilityReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".MondayFragment$UtilityReceiverMon" android:exported="false">
+            <intent-filter>
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".FridayFragment$UtilityReceiverFri" android:exported="false">
+            <intent-filter>
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".SaturdayFragment$UtilityReceiverSat" android:exported="false">
+            <intent-filter>
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".SundayFragment$UtilityReceiverSun" android:exported="false">
+            <intent-filter>
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Main5Activity$UtilityReceiver2" android:exported="false">
+            <intent-filter>
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".ThursdayFragment$UtilityReceiverThu" android:exported="false">
+            <intent-filter >
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".TuesdayFragment$UtilityReceiverTue" android:exported="false">
+            <intent-filter>
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".WednesdayFragment$UtilityReceiverWed" android:exported="false">
+            <intent-filter>
+                <action android:name="MyBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Main5Activity$UtilityReceiver1" android:exported="false">
+            <intent-filter >
+                <action android:name="MyBroadcast1" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Main5Activity$UtilityReceiverWeek" android:exported="false">
+                    </receiver>
+
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity"></activity>
+    </application>
+
+</manifest>

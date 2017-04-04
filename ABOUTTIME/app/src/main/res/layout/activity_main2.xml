@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.abhinavgautam.abouttime.Main4Activity"
+    android:background="@drawable/vv">
+    <GridLayout
+        android:background="@drawable/dsa"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_gravity="center"
+        android:rowCount="4"
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:id="@+id/l1"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:alpha="0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <android.support.design.widget.FloatingActionButton
+            app:backgroundTint="@color/blue"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:scaleType="fitCenter"
+            android:tint="#000000"
+            android:alpha="0.9"
+            android:src="@drawable/checki"
+            android:onClick="buttonClickFunction"
+            android:id="@+id/taskb"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="13dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_rowSpan="4" />
+
+        <android.support.design.widget.FloatingActionButton
+            app:backgroundTintMode="src_over"
+            android:tint="#000000"
+            app:backgroundTint="@color/orange"
+            android:alpha="0.9"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/routi"
+            android:onClick="buttonClickFunction1"
+            android:id="@+id/routb"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TASK LIST"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cyan"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:id="@+id/textView2"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WEEK ROUTINE"
+            android:paddingBottom="5dp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:id="@+id/textView3"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <android.support.design.widget.FloatingActionButton
+            app:backgroundTint="@color/green"
+            android:tint="#000000"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:src="@drawable/noti"
+            android:alpha="0.9"
+            android:id="@+id/notib"
+            android:scaleType="fitCenter"
+            android:onClick="buttonClickFunction2"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:tint="#000000"
+            android:alpha="0.7"
+            android:scaleType="fitCenter"
+            app:backgroundTint="@color/cyan"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:src="@drawable/assin"
+            android:id="@+id/assib"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOTIFY ME"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:id="@+id/textView4"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="ASSIGNMENT"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:id="@+id/textView5"
+            android:layout_row="3"
+            android:layout_column="2" />
+    </GridLayout>
+</android.support.design.widget.CoordinatorLayout>

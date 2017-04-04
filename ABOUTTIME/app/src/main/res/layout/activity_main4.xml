@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/vv"
+    tools:context="com.abhinavgautam.abouttime.Main4Activity">
+            <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbarStyle="outsideOverlay"
+                >
+            </android.support.v4.view.ViewPager>
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/create"
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/delswe"
+        android:id="@+id/fab11"
+        app:backgroundTint="@color/cyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:layout_marginRight="10dp"
+        android:onClick="bulkDelete"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/fab1"
+        android:layout_toStartOf="@+id/fab1" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab10"
+        android:src="@drawable/cpy"
+        app:backgroundTint="@color/cyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:layout_marginBottom="10dp"
+
+        android:layout_above="@+id/fab1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab12"
+        android:src="@drawable/deleteall"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        app:backgroundTint="@color/cyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:layout_above="@+id/fab11"
+        android:layout_toLeftOf="@+id/fab10"
+        android:layout_toStartOf="@+id/fab10" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/c1"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dsa"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/noti"
+        android:tint="#000000"
+        app:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:fabSize="mini"
+        android:scaleX="0.6"
+        android:layout_marginRight="30dp"
+        android:scaleY="0.6"
+        android:layout_gravity="top|right"
+        android:onClick="deleteTask" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/task_delete"
+        android:src="@drawable/delete"
+        app:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:fabSize="mini"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:layout_gravity="top|right"
+        android:onClick="deleteTask" />
+    <View style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="38dp"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/taski"
+        android:src="@drawable/create2"
+        app:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:onClick="editTask"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:layout_gravity="top|left" />
+
+        <TextView
+            android:id="@+id/task_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiii"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="35dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+
+           />
+    </android.support.design.widget.CoordinatorLayout>

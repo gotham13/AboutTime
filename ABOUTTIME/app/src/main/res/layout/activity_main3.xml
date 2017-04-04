@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutget"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="16dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/vv"
+    tools:context="com.abhinavgautam.abouttime.Main3Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TASKLIST"
+        android:textColor="@color/green"
+        android:background="@drawable/dsa"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/list_todo"
+        android:layout_alignEnd="@+id/list_todo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="no tasks"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/list_todo"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:dividerHeight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:smoothScrollbar="true"
+        android:overScrollMode="always"
+        android:layout_below="@+id/textView6"
+        android:layout_toRightOf="@+id/empty"
+        android:layout_toEndOf="@+id/empty" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/create2"
+        android:id="@+id/fab"
+        android:alpha="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonClick"
+        app:fabSize="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/deleteall"
+        android:id="@+id/fab3"
+        app:backgroundTint="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:onClick="bulkDelete"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/fab"
+        android:layout_toEndOf="@+id/fab" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/create2"
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:onClick="button1Click"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/fab"
+        android:layout_toStartOf="@+id/fab" />
+
+
+</RelativeLayout>
