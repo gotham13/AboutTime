@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.aapkerala.broomRevolution">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application
+        android:name="org.aapkerala.broomRevolution.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="org.aapkerala.broomRevolution.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.aapkerala.broomRevolution.Pc" />
+        <activity android:name="org.aapkerala.broomRevolution.Lac_database" />
+        <activity android:name="org.aapkerala.broomRevolution.sector_observers" />
+        <activity android:name="org.aapkerala.broomRevolution.sector_database" />
+        <activity android:name="org.aapkerala.broomRevolution.Lookover" />
+        <activity android:name="org.aapkerala.broomRevolution.observers" />
+        <activity android:name="org.aapkerala.broomRevolution.Main2Activity" />
+        <activity android:name="org.aapkerala.broomRevolution.Main3Activity" />
+        <activity android:name="org.aapkerala.broomRevolution.Main4Activity" >
+
+        </activity>
+        <activity android:name="org.aapkerala.broomRevolution.Main5Activity" />
+        <activity android:name="org.aapkerala.broomRevolution.ground_volunteer" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="org.aapkerala.broomRevolution.ground_volunteer_form1" />
+        <activity android:name="org.aapkerala.broomRevolution.ground_volunteer_form2" />
+        <activity android:name="org.aapkerala.broomRevolution.ground_volunteer_form3" />
+        <activity android:name="org.aapkerala.broomRevolution.offline" />
+        <activity android:name="org.aapkerala.broomRevolution.lac_observer" />
+        <activity android:name="org.aapkerala.broomRevolution.pc_lac_sector_observer" />
+        <activity android:name="org.aapkerala.broomRevolution.details" />
+        <activity android:name="org.aapkerala.broomRevolution.representative" />
+        <activity android:name="org.aapkerala.broomRevolution.credits"></activity>
+    </application>
+
+</manifest>

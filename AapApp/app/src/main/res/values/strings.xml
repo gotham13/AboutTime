@@ -1,0 +1,1955 @@
+<resources>
+    <string name="app_name">Broom Revolution</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string-array name="menu">
+        <item>Sector Observer</item>
+        <item></item>
+    </string-array>
+    <string-array name="observers">
+        <item>pc observers</item>
+        <item>lac observers</item>
+        <item>sector observers</item>
+    </string-array>
+    <string-array name="preferences">
+        <item>PC</item>
+        <item>LAC</item>
+        <item>SECTOR</item>
+        <item>CIRCLE</item>
+        <item>BOOTH</item>
+    </string-array>
+    <string-array name="pc_names">
+        <item>Kasaragod</item>
+        <item>Kannur</item>
+        <item>Vadakara</item>
+        <item>Wayanad</item>
+        <item>Kozhikode</item>
+        <item>Malappuram</item>
+        <item>Ponnani</item>
+        <item>Palakkad</item>
+        <item>Alathur</item>
+        <item>Thrissur</item>
+        <item>Chalakudy</item>
+        <item>Ernakulam</item>
+        <item>Idukki</item>
+        <item>Kottayam</item>
+        <item>Alappuzha</item>
+        <item>Mavelikkara</item>
+        <item>Pathanamthitta</item>
+        <item>Kollam</item>
+        <item>Attingal</item>
+        <item>Thiruvananthapuram</item>
+    </string-array>
+
+    <string-array name="Kasaragod1">
+        <item>All</item>
+        <item>1- Manjeshwar</item>
+        <item>2- Kasaragod</item>
+        <item>3- Udma</item>
+        <item>4- Kanhangad</item>
+        <item>5- Trikaripur</item>
+        <item>6- Payyannur</item>
+        <item>7- Kalliasseri</item>
+    </string-array>
+    <string-array name="Kannur1">
+        <item>All</item>
+        <item>8- Taliparamba</item>
+        <item>9- Irikkur</item>
+        <item>10- Azhikode</item>
+        <item>11- Kannur</item>
+        <item>12- Dharmadam</item>
+        <item>15- Mattannur</item>
+        <item>16- Peravoor</item>
+    </string-array>
+    <string-array name="Vadakara1">
+        <item>All</item>
+        <item>13- Thalassery</item>
+        <item>14- Kuthuparamba</item>
+        <item>20- Vadakara</item>
+        <item>21- Kuttiadi</item>
+        <item>22- Nadapuram</item>
+        <item>23- Quilandy</item>
+        <item>24- Perambra</item>
+    </string-array>
+    <string-array name="Wayanad">
+        <item>All</item>
+        <item>17- Mananthavady</item>
+        <item>18- Sulthanbathery</item>
+        <item>19- Kalpetta</item>
+        <item>32- Thiruvambadi</item>
+        <item>34- Ernad</item>
+        <item>35- Nilambur</item>
+        <item>36- Wandoor</item>
+    </string-array>
+    <string-array name="Kozhikode">
+        <item>All</item>
+        <item>25- Balusseri</item>
+        <item>26- Elathur</item>
+        <item>27- Kozhikode North</item>
+        <item>28- Kozhikode South</item>
+        <item>29- Beypore</item>
+        <item>30- Kunnamangalam</item>
+        <item>31- Koduvally</item>
+    </string-array>
+    <string-array name="Malappuram1">
+        <item>All</item>
+        <item>33- Kondotty</item>
+        <item>37- Manjeri</item>
+        <item>38- Perinthalmanna</item>
+        <item>39- Mankada</item>
+        <item>40- Malappuram</item>
+        <item>41- Vengara</item>
+        <item>42- Vallikkunnu</item>
+    </string-array>
+    <string-array name="Ponnani1">
+        <item>All</item>
+        <item>43- Tirurangadi</item>
+        <item>44- Tanur</item>
+        <item>45- Tirur</item>
+        <item>46- Kottakkal</item>
+        <item>47- Thavanur</item>
+        <item>48- Ponnani</item>
+        <item>49- Thrithala</item>
+    </string-array>
+    <string-array name="Palakkad1">
+        <item>All</item>
+        <item>50- Pattambi</item>
+        <item>51- Shoranur</item>
+        <item>52- Ottappalam</item>
+        <item>53- Kongad</item>
+        <item>54- Mannarkkad</item>
+        <item>55- Malampuzha</item>
+        <item>56- Palakkad</item>
+    </string-array>
+    <string-array name="Alathur1">
+        <item>All</item>
+        <item>57- Tarur</item>
+        <item>58- Chittur</item>
+        <item>59- Nemmara</item>
+        <item>60- Alathur</item>
+        <item>61- Chelakkara</item>
+        <item>62- Kunnamkulam</item>
+        <item>65- Wadakkanchery</item>
+    </string-array>
+    <string-array name="Thrissur1">
+        <item>All</item>
+        <item>63- Guruvayoor</item>
+        <item>64- Manalur</item>
+        <item>66- Ollur</item>
+        <item>67- Thrissur</item>
+        <item>68- Nattika</item>
+        <item>70- Irinjalakuda</item>
+        <item>71- Pudukkad</item>
+    </string-array>
+    <string-array name="Chalakudy">
+        <item>All</item>
+        <item>69- Kaipamangalam</item>
+        <item>72- Chalakudy</item>
+        <item>73- Kodungallur</item>
+        <item>74- Perumbavoor</item>
+        <item>75- Angamaly</item>
+        <item>76- Aluva</item>
+        <item>84- Kunnathunad</item>
+    </string-array>
+    <string-array name="Ernakulam1">
+        <item>All</item>
+        <item>77- Kalamassery</item>
+        <item>78- Paravur</item>
+        <item>79- Vypeen</item>
+        <item>80- Kochi</item>
+        <item>81- Tripunithura</item>
+        <item>82- Ernakulam</item>
+        <item>83- Thrikkakara</item>
+    </string-array>
+    <string-array name="Idukki1">
+        <item>All</item>
+        <item>86- Muvattupuzha</item>
+        <item>87- Kothamangalam</item>
+        <item>88- Devikulam</item>
+        <item>89- Udumbanchola</item>
+        <item>90- Thodupuzha</item>
+        <item>91- Idukki</item>
+        <item>92- Peerumade</item>
+    </string-array>
+    <string-array name="Kottayam1">
+        <item>All</item>
+        <item>85- Piravom</item>
+        <item>93- Pala</item>
+        <item>94- Kaduthuruthy</item>
+        <item>95- Vaikom</item>
+        <item>96- Ettumanoor</item>
+        <item>97- Kottayam</item>
+        <item>98- Puthuppally</item>
+    </string-array>
+    <string-array name="Alappuzha1">
+        <item>All</item>
+        <item>102- Aroor</item>
+        <item>103- Cherthala</item>
+        <item>104- Alappuzha</item>
+        <item>105- Ambalappuzha</item>
+        <item>107- Haripad</item>
+        <item>108- Kayamkulam</item>
+        <item>116- Karunagappally</item>
+    </string-array>
+    <string-array name="Mavelikkara1">
+        <item>All</item>
+        <item>99- Changanassery</item>
+        <item>106- Kuttanad</item>
+        <item>109- Mavelikkara</item>
+        <item>110- Chengannur</item>
+        <item>118- Kunnathur</item>
+        <item>119- Kottarakkara</item>
+        <item>120- Pathanapuram</item>
+    </string-array>
+    <string-array name="Pathanamthitta">
+        <item>All</item>
+        <item>100- Kanjirappally</item>
+        <item>101- Poonjar</item>
+        <item>111- Thiruvalla</item>
+        <item>112- Ranni</item>
+        <item>113- Aranmula</item>
+        <item>114- Konni</item>
+        <item>115- Adoor</item>
+    </string-array>
+    <string-array name="Kollam1">
+        <item>All</item>
+        <item>117- Chavara</item>
+        <item>121- Punalur</item>
+        <item>122- Chadayamangalam</item>
+        <item>123- Kundara</item>
+        <item>124- Kollam</item>
+        <item>125- Eravipuram</item>
+        <item>126- Chathannoor</item>
+    </string-array>
+    <string-array name="Attingal1">
+        <item>All</item>
+        <item>127- Varkala</item>
+        <item>128- Attingal</item>
+        <item>129- Chirayinkeezhu</item>
+        <item>130- Nedumangad</item>
+        <item>131- Vamanapuram</item>
+        <item>136- Aruvikkara</item>
+        <item>138- Kattakkada</item>
+    </string-array>
+    <string-array name="Thiruvananthapuram1">
+        <item>All</item>
+        <item>132- Kazhakoottam</item>
+        <item>133- Vattiyoorkavu</item>
+        <item>134- Thiruvananthapuram</item>
+        <item>135- Nemom</item>
+        <item>137- Parassala</item>
+        <item>139- Kovalam</item>
+        <item>140- Neyyattinkara</item>
+    </string-array>
+    <string-array name="All">
+        <item>All</item>
+    </string-array>
+
+
+    <string-array name="Kasaragod">
+        <item>All</item>
+        <item>Kasaragod Municipality</item>
+        <item>Badiadka</item>
+        <item>Bellur</item>
+        <item>Chengala</item>
+        <item>Karadka</item>
+        <item>Kumbdaje</item>
+        <item>Madhur</item>
+        <item>Mogral Puthur</item>
+    </string-array>
+    <string-array name="Udma">
+        <item>All</item>
+        <item>Bedadka</item>
+        <item>Chemnad</item>
+        <item>Delampady</item>
+        <item>Kuttikole</item>
+        <item>Muliyar</item>
+        <item>Pallikkara</item>
+        <item>Pullur-Periya</item>
+        <item>Udma</item>
+    </string-array>
+    <string-array name="Kanhangad">
+        <item>All</item>
+        <item>Kanhangad Muncipality</item>
+        <item>Ajanur</item>
+        <item>Balal</item>
+        <item>Kallar</item>
+        <item>Kinanoor - Karindalam</item>
+        <item>Kodom-Belur,</item>
+        <item>Madikai</item>
+        <item>Panathady</item>
+    </string-array>
+    <string-array name="Trikaripur">
+        <item>All</item>
+        <item>Cheruvathur</item>
+        <item>East Eleri</item>
+        <item>Kayyur-Cheemeni</item>
+        <item>Nileshwar</item>
+        <item>Padne</item>
+        <item>Pilicode</item>
+        <item>Trikaripur</item>
+        <item>Valiyaparamba</item>
+        <item>West Eleri</item>
+    </string-array>
+    <string-array name="Manjeshwar">
+        <item>All</item>
+        <item>Enmakaje</item>
+        <item>Kumbla</item>
+        <item>Mangalpady</item>
+        <item>Manjeshwar</item>
+        <item>Meenja</item>
+        <item>Paivalike</item>
+        <item>Puthige</item>
+        <item>Vorkady</item>
+    </string-array>
+    <string-array name="Payyannur">
+        <item>All</item>
+        <item>Payyannur Municipality</item>
+        <item>Cherupuzha</item>
+        <item>Eramamkuttoor</item>
+        <item>Kankole-Alapadamba</item>
+        <item>Karivellur Peralam</item>
+        <item>Peringome Vayakkara</item>
+        <item>Ramanthali</item>
+    </string-array>
+    <string-array name="Taliparamba">
+        <item>All</item>
+        <item>Taliparamba Municipality</item>
+        <item>Chapparapadavu</item>
+        <item>Kurumathur</item>
+        <item>Kolacherry</item>
+        <item>Kuttiattoor</item>
+        <item>Malapattam</item>
+        <item>Mayyil</item>
+        <item>Pariyaram</item>
+    </string-array>
+    <string-array name="Irikkur">
+        <item>All</item>
+        <item>Chengalayi</item>
+        <item>Eruvassy</item>
+        <item>Irikkur</item>
+        <item>Payyavoor</item>
+        <item>Sreekandapuram</item>
+        <item>Alakode</item>
+        <item>Naduvil</item>
+        <item>Udayagiri </item>
+        <item>Ulikkal</item>
+    </string-array>
+    <string-array name="Kalliasseri">
+        <item>All</item>
+        <item>Cherukunnu</item>
+        <item>Cheruthazham</item>
+        <item>Ezhome</item>
+        <item>Kadannappalli-Panapuzha</item>
+        <item>Kalliasseri</item>
+        <item>Kannapuram</item>
+        <item>Kunhimangalam</item>
+        <item>Madayi</item>
+        <item>Mattool</item>
+        <item>Pattuvam</item>
+    </string-array>
+    <string-array name="Azhikode">
+        <item>All</item>
+        <item>Azhikode</item>
+        <item>Chirakkal</item>
+        <item>Narath</item>
+        <item>Pallikkunnu</item>
+        <item>Pappinisseri</item>
+        <item>Puzhathi</item>
+        <item>Valapattanam</item>
+    </string-array>
+    <string-array name="Kannur">
+        <item>All</item>
+        <item>Kannur Municipality</item>
+        <item>Chelora</item>
+        <item>Edakkad</item>
+        <item>Elayavoor</item>
+        <item>Munderi</item>
+    </string-array>
+    <string-array name="Dharmadam">
+        <item>All</item>
+        <item>Anjarakandy</item>
+        <item>Chembilode</item>
+        <item>Kadambur</item>
+        <item>Muzhappilangad</item>
+        <item>Peralasseri</item>
+        <item>Dharmadam</item>
+        <item>Pinarayi</item>
+        <item>Vengad</item>
+    </string-array>
+    <string-array name="Thalassery">
+        <item>All</item>
+        <item>Thalassery Municipality</item>
+        <item>Chockli</item>
+        <item>Eranholi</item>
+        <item>Kadirur</item>
+        <item>New-Mahe</item>
+        <item>Panniyannur</item>
+    </string-array>
+    <string-array name="Kuthuparamba">
+        <item>All</item>
+        <item>Kuthuparamba Municipality</item>
+        <item>Kariyad</item>
+        <item>Kottayam -Malabar</item>
+        <item>Kunnothuparambu</item>
+        <item>Mokeri</item>
+        <item>Panoor</item>
+        <item>Pattiom</item>
+        <item>Peringalam</item>
+        <item>Thriprangottur</item>
+    </string-array>
+    <string-array name="Mattannur">
+        <item>All</item>
+        <item>Mattannur Municipality</item>
+        <item>Chittariparamba</item>
+        <item>Keezhallur</item>
+        <item>Koodali</item>
+        <item>Malur</item>
+        <item>Mangattidam</item>
+        <item>Kolayad</item>
+        <item>Thillenkeri</item>
+        <item>Padiyur-Kalliad</item>
+    </string-array>
+    <string-array name="Peravoor">
+        <item>All</item>
+        <item>Aralam</item>
+        <item>Ayyankunnu</item>
+        <item>Kanichar</item>
+        <item>Keezhur-Chavassery</item>
+        <item>Kelakam</item>
+        <item>Kottiyoor</item>
+        <item>Muzhakkunnu</item>
+        <item>Payam</item>
+        <item>Peravoor</item>
+    </string-array>
+    <string-array name="Mananthavady">
+        <item>All</item>
+        <item>Edavaka</item>
+        <item>Mananthavady</item>
+        <item>Panamaram</item>
+        <item>Thavinhal</item>
+        <item>Thirunelly</item>
+        <item>Thondernad </item>
+        <item>Vellamunda</item>
+    </string-array>
+    <string-array name="Kalpetta">
+        <item>All</item>
+        <item>Kalpetta Municipality</item>
+        <item>Kaniambetta</item>
+        <item>Kottathara</item>
+        <item>Meppady</item>
+        <item>Muppainad</item>
+        <item>Muttil</item>
+        <item>Padinharethara</item>
+        <item>Pozhuthana</item>
+        <item>Thariyode</item>
+        <item>Vengappally</item>
+        <item>Vythiri</item>
+    </string-array>
+    <string-array name="Sulthanbathery">
+        <item>All</item>
+        <item>Ambalavayal</item>
+        <item>Meenangadi</item>
+        <item>Mullenkolly</item>
+        <item>Nenmeni</item>
+        <item>Noolpuzha</item>
+        <item>Poothadi</item>
+        <item>Pulpalli</item>
+        <item>Sulthanbathery</item>
+    </string-array>
+    <string-array name="Vadakara">
+        <item>All</item>
+        <item>Vadakara Municipality</item>
+        <item>Azhiyur</item>
+        <item>Chorode</item>
+        <item>Eramala</item>
+        <item>Onchiam</item>
+    </string-array>
+    <string-array name="Kuttiadi">
+        <item>All</item>
+        <item>Ayancheri</item>
+        <item>Kunnummal</item>
+        <item>Kuttiadi</item>
+        <item>Purameri</item>
+        <item>Thiruvallur</item>
+        <item>Velom</item>
+        <item>Maniyur</item>
+        <item>Villiappally</item>
+    </string-array>
+    <string-array name="Nadapuram">
+        <item>All</item>
+        <item>Chekkiad</item>
+        <item>Edacheri</item>
+        <item>Kavilumpara</item>
+        <item>Kayakkodi</item>
+        <item>Maruthonkara</item>
+        <item>Nadapuram</item>
+        <item>Narippatta</item>
+        <item>Thuneri</item>
+        <item>Valayam</item>
+        <item>Vanimel</item>
+    </string-array>
+    <string-array name="Quilandy">
+        <item>All</item>
+        <item>Quilandy Municipality</item>
+        <item>Chemancheri</item>
+        <item>Chengottukavu</item>
+        <item>Moodadi</item>
+        <item>Payyoli</item>
+        <item>Thikkody</item>
+    </string-array>
+    <string-array name="Perambra">
+        <item>All</item>
+        <item>Arikkulam</item>
+        <item>Chakkittapara</item>
+        <item>Changaroth</item>
+        <item>Cheruvannur</item>
+        <item>Keezhariyur</item>
+        <item>Koothali</item>
+        <item>Meppayyur</item>
+        <item>Nochad</item>
+        <item>Perambra</item>
+        <item>Thurayur</item>
+    </string-array>
+    <string-array name="Balusseri">
+        <item>All</item>
+        <item>Atholi</item>
+        <item>Balusseri</item>
+        <item>Kayanna</item>
+        <item>Koorachundu</item>
+        <item>Kottur</item>
+        <item>Naduvannur</item>
+        <item>Panangad</item>
+        <item>Ulliyeri</item>
+        <item>Unnikulam</item>
+    </string-array>
+    <string-array name="Elathur">
+        <item>All</item>
+        <item>Chelannur</item>
+        <item>Elathur</item>
+        <item>Kakkodi</item>
+        <item>Kakkur</item>
+        <item>Kuruvattur</item>
+        <item>Nanmanda</item>
+        <item>Thalakkulathur</item>
+    </string-array>
+    <string-array name="Kozhikode_North">
+        <item>All</item>
+        <item>Kozhikode (M. Corporation) Wards No.1 to 16</item>
+        <item>Kozhikode (M. Corporation) Wards No. 39</item>
+        <item>Kozhikode (M. Corporation) Wards No. 40</item>
+        <item>Kozhikode (M. Corporation) Wards No. 42 </item>
+        <item>Kozhikode (M. Corporation) Wards No. 51</item>
+    </string-array>
+    <string-array name="Kozhikode_South">
+        <item>All</item>
+        <item>Kozhikode (M. Corporation) Wards No. 17 to 38</item>
+        <item>Kozhikode (M. Corporation) Wards No. 41</item>
+    </string-array>
+    <string-array name="Beypore">
+        <item>All</item>
+        <item>Beypore</item>
+        <item>Cheruvannur-Nallalam</item>
+        <item>Feroke</item>
+        <item>Kadalundi</item>
+        <item>Ramanattukara</item>
+    </string-array>
+    <string-array name="Kunnamangalam">
+        <item>All</item>
+        <item>Chathamangalam</item>
+        <item>Kunnamangalam</item>
+        <item>Mavoor</item>
+        <item>Olavanna</item>
+        <item>Perumanna</item>
+        <item>Peruvayal</item>
+    </string-array>
+    <string-array name="Koduvally">
+        <item>All</item>
+        <item>Kizhakkoth</item>
+        <item>Koduvally</item>
+        <item>Madavoor</item>
+        <item>Narikkuni</item>
+        <item>Omassery</item>
+        <item>Thamarassery</item>
+    </string-array>
+    <string-array name="Thiruvambadi">
+        <item>All</item>
+        <item>Karassery</item>
+        <item>Kodencheri</item>
+        <item>Kodiyathur</item>
+        <item>Koodaranji</item>
+        <item>Mukkom</item>
+        <item>Puthuppadi</item>
+        <item>Thiruvambadi</item>
+    </string-array>
+    <string-array name="Nilambur">
+        <item>All</item>
+        <item>Amarambalam</item>
+        <item>Chungathara</item>
+        <item>Edakkara</item>
+        <item>Karulai</item>
+        <item>Moothedam</item>
+        <item>Nilambur</item>
+        <item>Pothukal</item>
+        <item>Vazhikkadavu</item>
+    </string-array>
+    <string-array name="Wandoor">
+        <item>All</item>
+        <item>Chokkad</item>
+        <item>Kalikavu</item>
+        <item>Karuvarakundu</item>
+        <item>Mampad</item>
+        <item>Porur</item>
+        <item>Thiruvali</item>
+        <item>Thuvvur</item>
+        <item>Wandoor</item>
+    </string-array>
+    <string-array name="Ernad">
+        <item>All</item>
+        <item>Chaliyar</item>
+        <item>Areacode</item>
+        <item>Edavanna</item>
+        <item>Kavannoor</item>
+        <item>Kizhuparamba</item>
+        <item>Urangattiri</item>
+        <item>Kuzhimanna</item>
+    </string-array>
+    <string-array name="Manjeri">
+        <item>All</item>
+        <item>Manjeri Municipality</item>
+        <item>Pandikkad</item>
+        <item>Trikkalangode</item>
+        <item>Edappatta</item>
+        <item>Keezhattur</item>
+    </string-array>
+    <string-array name="Malappuram">
+        <item>All</item>
+        <item>Malappuram Municipality</item>
+        <item>Morayur</item>
+        <item>Pookkottur</item>
+        <item>Anakkayam</item>
+        <item>Pulpatta</item>
+        <item>Kodur</item>
+    </string-array>
+    <string-array name="Vengara">
+        <item>All</item>
+        <item>Abdu Rahiman Nagar</item>
+        <item>Kannamangalam</item>
+        <item>Othukkungal</item>
+        <item>Parappur</item>
+        <item>Urakam</item>
+        <item>Vengara</item>
+    </string-array>
+    <string-array name="Vallikkunnu">
+        <item>All</item>
+        <item>Chelembra</item>
+        <item>Moonniyur</item>
+        <item>Pallikkal</item>
+        <item>Peruvallur</item>
+        <item>Thenhippalam</item>
+        <item>Vallikkunnu</item>
+    </string-array>
+    <string-array name="Tirurangadi">
+        <item>All</item>
+        <item>Edarikode</item>
+        <item>Nannambra</item>
+        <item>Parappanangadi</item>
+        <item>Thennala</item>
+        <item>Tirurangadi</item>
+        <item>Perumanna Clari</item>
+    </string-array>
+    <string-array name="Tanur">
+        <item>All</item>
+        <item>Cheriyamundam</item>
+        <item>Niramaruthur</item>
+        <item>Ozhur</item>
+        <item>Ponmundam</item>
+        <item>Thanalur</item>
+        <item>Tanur</item>
+    </string-array>
+    <string-array name="Tirur">
+        <item>All</item>
+        <item>Tirur Municipality</item>
+        <item>Athavanad</item>
+        <item>Kalpakancheri</item>
+        <item>Thalakkad</item>
+        <item>Thirunavaya</item>
+        <item>Valavannur</item>
+        <item>Vettom</item>
+    </string-array>
+    <string-array name="Kottakkal">
+        <item>All</item>
+        <item>Edayoor</item>
+        <item>Irimbiliyam</item>
+        <item>Kottakkal</item>
+        <item>Kuttippuram</item>
+        <item>Marakkara</item>
+        <item>Ponmala</item>
+        <item>Valanchery</item>
+    </string-array>
+    <string-array name="Thavanur">
+        <item>All</item>
+        <item>Edappal</item>
+        <item>Thavanur</item>
+        <item>Kaladi</item>
+        <item>Vattamkulam</item>
+        <item>Purathur</item>
+        <item>Mangalam</item>
+        <item>Thriprangode</item>
+    </string-array>
+    <string-array name="Ponnani">
+        <item>All</item>
+        <item>Ponnani Municipality</item>
+        <item>Alamcode</item>
+        <item>Maranchery</item>
+        <item>Nannamukku</item>
+        <item>Perumpadappa</item>
+        <item>Veliyankode</item>
+    </string-array>
+    <string-array name="Perinthalmanna">
+        <item>All</item>
+        <item>Perinthalmanna Municipality</item>
+        <item>Aliparamba</item>
+        <item>Elamkulam</item>
+        <item>Pulamanthole</item>
+        <item>Thazhekode</item>
+        <item>Vettathur</item>
+        <item>Melattur</item>
+    </string-array>
+    <string-array name="Mankada">
+        <item>All</item>
+        <item>Angadippuram</item>
+        <item>Koottilangadi</item>
+        <item>Kuruva</item>
+        <item>Makkaraparamba</item>
+        <item>Mankada</item>
+        <item>Moorkkanad</item>
+        <item>Puzhakkattiri</item>
+    </string-array>
+    <string-array name="Kondotty">
+        <item>All</item>
+        <item>Cheacode</item>
+        <item>Cherukavu</item>
+        <item>Kondotty</item>
+        <item>Pulikkal</item>
+        <item>Vazhakkad</item>
+        <item>Nediyiruppu</item>
+        <item>Vazhayur</item>
+    </string-array>
+    <string-array name="Shoranur">
+        <item>All</item>
+        <item>Shornur Municipality</item>
+        <item>Ananganadi</item>
+        <item>Chalavara</item>
+        <item>Cherpulasserry</item>
+        <item>Nellaya</item>
+        <item>Thrikkadeeri</item>
+        <item>Vaniyamkulam</item>
+        <item>Vellinezhi</item>
+    </string-array>
+    <string-array name="Ottappalam">
+        <item>All</item>
+        <item>Ottappalam Municipality</item>
+        <item>Ambalapara</item>
+        <item>Kadampazhipuram</item>
+        <item>Karimpuzha</item>
+        <item>Lakkidi-Perur</item>
+        <item>Pookkottukavu</item>
+        <item>Sreekrishnapuram</item>
+        <item>Thachanattukara</item>
+    </string-array>
+    <string-array name="Mannarkkad">
+        <item>All</item>
+        <item>Agali</item>
+        <item>Alanallur</item>
+        <item>Kottoppadam</item>
+        <item>Kumaramputhur</item>
+        <item>Mannarkkad</item>
+        <item>Pudur</item>
+        <item>Sholayur</item>
+        <item>Thenkara</item>
+    </string-array>
+    <string-array name="Kongad">
+        <item>All</item>
+        <item>Kanhirapuzha</item>
+        <item>Karakurissi</item>
+        <item>Thachampara </item>
+        <item>Karimba</item>
+        <item>Keralassery</item>
+        <item>Kongad</item>
+        <item>Mankara</item>
+        <item>Mannur</item>
+        <item>Parali</item>
+    </string-array>
+    <string-array name="Malampuzha">
+        <item>All</item>
+        <item>Akathethara</item>
+        <item>Elappully</item>
+        <item>Kodumba</item>
+        <item>Malampuzha</item>
+        <item>Marutharoad</item>
+        <item>Mundur</item>
+        <item>Pudussery</item>
+        <item>Puduppariyaram</item>
+    </string-array>
+    <string-array name="Palakkad">
+        <item>All</item>
+        <item>Palakkad Municipality</item>
+        <item>Kannadi</item>
+        <item>Pirayiri</item>
+        <item>Mathur</item>
+    </string-array>
+    <string-array name="Chittur">
+        <item>All</item>
+        <item>Chittur-Thathamangalam Municipality</item>
+        <item>Eruthempathy</item>
+        <item>Kozhinjampara</item>
+        <item>Nalleppilly</item>
+        <item>Pattanchery</item>
+        <item>Perumatty</item>
+        <item>Vadakarapathy</item>
+        <item>Peruvemba</item>
+        <item>Polpully</item>
+    </string-array>
+    <string-array name="Nemmara">
+        <item>All</item>
+        <item>Elavenchery</item>
+        <item>Koduvayur</item>
+        <item>Kollengode</item>
+        <item>Muthalamada</item>
+        <item>Nelliyampathy</item>
+        <item>Nemmara</item>
+        <item>Pallassana</item>
+        <item>Ayiloor</item>
+        <item>Puthunagaram</item>
+        <item>Vadavannur</item>
+    </string-array>
+    <string-array name="Tarur">
+        <item>All</item>
+        <item>Kannambra</item>
+        <item>Kavasseri</item>
+        <item>Kottayi</item>
+        <item>Kuthanur</item>
+        <item>Peringottukurissi</item>
+        <item>Puducode</item>
+        <item>Tarur</item>
+        <item>Vadakkencheri</item>
+    </string-array>
+    <string-array name="Alathur">
+        <item>All</item>
+        <item>Alathur</item>
+        <item>Erimayur</item>
+        <item>Kizhakkencheri</item>
+        <item>Kuzhalmannam</item>
+        <item>Melarcode</item>
+        <item>Thenkurissi</item>
+        <item>Vandazhi</item>
+    </string-array>
+    <string-array name="Thrithala">
+        <item>All</item>
+        <item>Anakkara</item>
+        <item>Chalissery</item>
+        <item>Kappur</item>
+        <item>Nagalassery</item>
+        <item>Parudur</item>
+        <item>Pattithara</item>
+        <item>Thirumittacode</item>
+        <item>Thrithala</item>
+    </string-array>
+    <string-array name="Pattambi">
+        <item>All</item>
+        <item>Koppam</item>
+        <item>Kulukkallur</item>
+        <item>Muthuthala</item>
+        <item>Ongallur</item>
+        <item>Pattambi</item>
+        <item>Thiruvegapura</item>
+        <item>Vallapuzha</item>
+        <item>Vilayur</item>
+    </string-array>
+    <string-array name="Chelakkara">
+        <item>All</item>
+        <item>Chelakkara</item>
+        <item>Desamangalam</item>
+        <item>Kondazhy</item>
+        <item>Mullurkara</item>
+        <item>Panjal</item>
+        <item>Pazhayannur</item>
+        <item>Thiruvilwamala</item>
+        <item>Vallatholenagar</item>
+        <item>Varavoor</item>
+    </string-array>
+    <string-array name="Kunnamkulam">
+        <item>All</item>
+        <item>Kunnamkulam Municipality</item>
+        <item>Chowannur</item>
+        <item>Erumapetty</item>
+        <item>Kadangode</item>
+        <item>Kadavallur</item>
+        <item>Kattakampal</item>
+        <item>Porkulam</item>
+        <item>Velur</item>
+    </string-array>
+    <string-array name="Wadakkanchery">
+        <item>All</item>
+        <item>Mundathikode</item>
+        <item>Wadakkanchery</item>
+        <item>Thekkumkara</item>
+        <item>Mulankunnathukavu</item>
+        <item>Avanoor</item>
+        <item>Kaiparambu</item>
+        <item>Tholur</item>
+        <item>Adat</item>
+        <item>Kolazhy⁠⁠⁠⁠</item>
+    </string-array>
+    <string-array name="Ollur">
+        <item>All</item>
+        <item>Madakkathara</item>
+        <item>Nadathara</item>
+        <item>Pananchery</item>
+        <item>Puthur</item>
+        <item>Thrissur (M. Corporation)  Wards No.12</item>
+        <item>Thrissur (M. Corporation)  Wards No.13</item>
+        <item>Thrissur (M. Corporation)  Wards No.23 to 31</item>
+        <item>Thrissur (M. Corporation)  Wards No.40 to 42</item>
+    </string-array>
+    <string-array name="Thrissur">
+        <item>All</item>
+        <item>Thrissur (M. Corporation) Wards No.1 to 11</item>
+        <item>Thrissur (M. Corporation)  Wards No.14 to 22</item>
+        <item>Thrissur (M. Corporation)  Wards No.32 to 39</item>
+        <item>Thrissur (M. Corporation)  Wards No.43 to 50</item>
+    </string-array>
+    <string-array name="Nattika">
+        <item>All</item>
+        <item>Anthikkad</item>
+        <item>Avinissery</item>
+        <item>Chazhoor</item>
+        <item>Cherpu</item>
+        <item>Paralam</item>
+        <item>Thanniyam</item>
+        <item>Nattika</item>
+        <item>Valappad</item>
+        <item>Talikkulam</item>
+    </string-array>
+    <string-array name="Irinjalakuda">
+        <item>All</item>
+        <item>Irinjalakuda Municipality</item>
+        <item>Alur</item>
+        <item>Karalam</item>
+        <item>Kattur</item>
+        <item>Muriyad</item>
+        <item>Padiyur</item>
+        <item>Poomangalam</item>
+        <item>Porathissery</item>
+        <item>Velookkara</item>
+    </string-array>
+    <string-array name="Pudukkad">
+        <item>All</item>
+        <item>Alagappanagar</item>
+        <item>Mattathur</item>
+        <item>Nenmanikkara</item>
+        <item>Parappukkara</item>
+        <item>Puthukkad</item>
+        <item>Varandarappilly</item>
+        <item>Trikkur</item>
+    </string-array>
+    <string-array name="Guruvayoor">
+        <item>All</item>
+        <item>Chavakkad Municipality</item>
+        <item>Guruvayoor Municipality</item>
+        <item>Kadappuram</item>
+        <item>Orumanayur</item>
+        <item>Pookode</item>
+        <item>Punnayur</item>
+        <item>Punnayurkulam</item>
+        <item>Engandiyur</item>
+        <item>Vadakkekad</item>
+    </string-array>
+    <string-array name="Manalur">
+        <item>All</item>
+        <item>Arimpur</item>
+        <item>Manalur</item>
+        <item>Choondal</item>
+        <item>Kandanassery</item>
+        <item>Elavally</item>
+        <item>Mullassery</item>
+        <item>Vatanappally</item>
+        <item>Pavaratty</item>
+        <item>Thaikkad</item>
+        <item>Venkitangu</item>
+    </string-array>
+    <string-array name="Kaipamangalam">
+        <item>All</item>
+        <item>Edavilangu</item>
+        <item>Edathiruthy</item>
+        <item>Eriyad</item>
+        <item>Kaipamangalam</item>
+        <item>Mathilakam</item>
+        <item>Perinjanam</item>
+        <item>Sreenarayanapuram</item>
+    </string-array>
+    <string-array name="Kodungallur">
+        <item>All</item>
+        <item>Kodungallur Municipality</item>
+        <item>Methala</item>
+        <item>Poyya</item>
+        <item>Annamanada</item>
+        <item>Kuzhur</item>
+        <item>Mala</item>
+        <item>Puthenchira</item>
+        <item>Vellangallur</item>
+    </string-array>
+    <string-array name="Chalakudy2">
+        <item>All</item>
+        <item>Chalakudy Municipality</item>
+        <item>Athirappilly</item>
+        <item>Kadukutty</item>
+        <item>Kodakara</item>
+        <item>Kodassery</item>
+        <item>Koratty</item>
+        <item>Melur</item>
+        <item>Pariyaram</item>
+    </string-array>
+    <string-array name="Kalamassery">
+        <item>All</item>
+        <item>Kalamassery Municipality</item>
+        <item>Alangad</item>
+        <item>Eloor</item>
+        <item>Kadungalloor</item>
+        <item>Kunnukara</item>
+        <item>Karumalloor</item>
+    </string-array>
+    <string-array name="Paravur">
+        <item>All</item>
+        <item>North Paravur Municipality</item>
+        <item>Chendamangalam</item>
+        <item>Chittattukara</item>
+        <item>Ezhikkara</item>
+        <item>Kottuvally</item>
+        <item>Puthenvelikkara</item>
+        <item>Varappuzha</item>
+        <item>Vadakkekara</item>
+    </string-array>
+    <string-array name="Vypeen">
+        <item>All</item>
+        <item>Kadamakudy</item>
+        <item>Mulavukad</item>
+        <item>Edavanakkad</item>
+        <item>Elamkunnapuzha</item>
+        <item>Kuzhuppilly</item>
+        <item>Nayarambalam</item>
+        <item>Njarakkal</item>
+        <item>Pallippuram</item>
+    </string-array>
+    <string-array name="Kochi">
+        <item>All</item>
+        <item>Kumbalangi</item>
+        <item>Chellanam</item>
+        <item>Kochi (M.Corporation) Wards No.1 to 10</item>
+        <item>19 to 25</item>
+    </string-array>
+    <string-array name="Tripunithura">
+        <item>All</item>
+        <item>Thripunithura Municipality</item>
+        <item>Kumbalam</item>
+        <item>Maradu</item>
+        <item>Udayamperoor</item>
+        <item>Kochi (M. Corporation) Wards No.11 to 18</item>
+    </string-array>
+    <string-array name="Ernakulam">
+        <item>All</item>
+        <item>Kochi (M. Corporation) Ward No.26 </item>
+        <item>Cheranalloor</item>
+        <item>Kochi (M. Corporation) Wards No.27 to 30</item>
+        <item>Kochi (M. Corporation) Wards No. 32</item>
+        <item>Kochi (M. Corporation) Wards No. 35</item>
+        <item>Kochi (M. Corporation) Wards No. 52 to 66</item>
+    </string-array>
+    <string-array name="Thrikkakara">
+        <item>All</item>
+        <item>Kochi (M. Corporation) Wards No.31</item>
+        <item>Kochi (M. Corporation) Wards No. 33</item>
+        <item>Kochi (M. Corporation) Wards No. 34</item>
+        <item>36 to 51</item>
+        <item>Thrikkakara</item>
+    </string-array>
+    <string-array name="Angamaly">
+        <item>All</item>
+        <item>Angamaly Municipality</item>
+        <item>Ayyampuzha</item>
+        <item>Kalady</item>
+        <item>Karukutty</item>
+        <item>Malayattoor-Neeleswaram</item>
+        <item>Manjapra</item>
+        <item>Mookkannoor</item>
+        <item>Parakkadavu</item>
+        <item>Thuravoor</item>
+    </string-array>
+    <string-array name="Aluva">
+        <item>All</item>
+        <item>Aluva Municipality</item>
+        <item>Chengamanad</item>
+        <item>Choornikkara</item>
+        <item>Edathala</item>
+        <item>Kanjoor</item>
+        <item>Keezhmad</item>
+        <item>Nedumbassery</item>
+        <item>Sreemolanagaram</item>
+    </string-array>
+    <string-array name="Perumbavoor">
+        <item>All</item>
+        <item>Perumbavoor Municipality</item>
+        <item>Asamannoor</item>
+        <item>Koovappady</item>
+        <item>Mudakkuzha</item>
+        <item>Okkal</item>
+        <item>Rayamangalam</item>
+        <item>Vengola</item>
+        <item>Vengoor</item>
+    </string-array>
+    <string-array name="Kunnathunad">
+        <item>All</item>
+        <item>Aikaranad</item>
+        <item>Kizhakkambalam</item>
+        <item>Kunnathunad</item>
+        <item>Mazhuvannoor</item>
+        <item>Poothrikka</item>
+        <item>Thiruvaniyoor</item>
+        <item>Vadavucode-Puthencruz</item>
+        <item>Vazhakulam</item>
+    </string-array>
+    <string-array name="Piravom">
+        <item>All</item>
+        <item>Amballoor</item>
+        <item>Edakkattuvayal</item>
+        <item>Chottanikkara</item>
+        <item>Mulanthuruthy</item>
+        <item>Thiruvankulam</item>
+        <item>Elanji</item>
+        <item>Koothattukulam</item>
+        <item>Maneed</item>
+        <item>Pampakuda</item>
+        <item>Piravom</item>
+        <item>Ramamangalam</item>
+        <item>Thirumarady</item>
+    </string-array>
+    <string-array name="Muvattupuzha">
+        <item>All</item>
+        <item>Muvattupuzha Municipality</item>
+        <item>Arakuzha</item>
+        <item>Avoly</item>
+        <item>Ayavana</item>
+        <item>Kalloorkad</item>
+        <item>Manjalloor</item>
+        <item>Marady</item>
+        <item>Paipra</item>
+        <item>Palakkuzha</item>
+        <item>Valakom</item>
+        <item>Paingottoor</item>
+        <item>Pothanicad</item>
+    </string-array>
+    <string-array name="Kothamangalam">
+        <item>All</item>
+        <item>Kothamangalam Municipality</item>
+        <item>Kavalangad</item>
+        <item>Keerampara</item>
+        <item>Kottappady</item>
+        <item>Kuttampuzha</item>
+        <item>Nellikkuzhi</item>
+        <item>Pallarimangalam</item>
+        <item>Pindimana</item>
+    </string-array>
+    <string-array name="Thodupuzha">
+        <item>All</item>
+        <item>Thodupuzha Municipality</item>
+        <item>Alacode</item>
+        <item>Edavetty</item>
+        <item>Karimannoor</item>
+        <item>Karimkunnam</item>
+        <item>Kodikulam</item>
+        <item>Kumaramangalam</item>
+        <item>Manakkad</item>
+        <item>Muttom</item>
+        <item>Purapuzha</item>
+        <item>Udumbannoor</item>
+        <item>Vannapuram</item>
+        <item>Velliyamattom</item>
+    </string-array>
+    <string-array name="Devikulam">
+        <item>All</item>
+        <item>Adimali</item>
+        <item>Kanthalloor</item>
+        <item>Mankulam</item>
+        <item>Marayoor</item>
+        <item>Munnar</item>
+        <item>Pallivasal</item>
+        <item>Vattavada</item>
+        <item>Vellathooval</item>
+        <item>Bisonvalley</item>
+        <item>Chinnakanal</item>
+    </string-array>
+    <string-array name="Udumbanchola">
+        <item>All</item>
+        <item>Erattayar</item>
+        <item>Karunapuram</item>
+        <item>Nedumkandam</item>
+        <item>Pampadumpara</item>
+        <item>Rajakkad</item>
+        <item>Rajakumari</item>
+        <item>Santhanpara</item>
+        <item>Senapathy</item>
+        <item>Udumbanchola</item>
+        <item>Vandanmedu</item>
+    </string-array>
+    <string-array name="Peerumade">
+        <item>All</item>
+        <item>Ayyappancoil</item>
+        <item>Chakkupallam</item>
+        <item>Udumbanchola</item>
+        <item>Elappara</item>
+        <item>Kokkayar</item>
+        <item>Kumily</item>
+        <item>Peerumade</item>
+        <item>Peruvanthanam</item>
+        <item>Upputhara</item>
+        <item>Vandiperiyar</item>
+    </string-array>
+    <string-array name="Idukki">
+        <item>All</item>
+        <item>Arakkulam</item>
+        <item>Idukki-Kanjikuzhi</item>
+        <item>Kudayathoor</item>
+        <item>Vazhathope</item>
+        <item>Kamakshy</item>
+        <item>Kanchiyar</item>
+        <item>Kattappana</item>
+        <item>Konnathady</item>
+        <item>Mariapuram</item>
+        <item>Vathikudy </item>
+    </string-array>
+    <string-array name="Kanjirappally">
+        <item>All</item>
+        <item>Chirakkadavu</item>
+        <item>Kanjirappally</item>
+        <item>Manimala</item>
+        <item>Kangazha</item>
+        <item>Karukachal</item>
+        <item>Nedumkunnam</item>
+        <item>Vazhoor</item>
+        <item>Vellavoor</item>
+        <item>Pallikkathode</item>
+    </string-array>
+    <string-array name="Poonjar">
+        <item>All</item>
+        <item>Erumeli</item>
+        <item>Koottickal</item>
+        <item>Mundakayam</item>
+        <item>Parathode</item>
+        <item>Erattupetta</item>
+        <item>Poonjar</item>
+        <item>Poonjar Thekkekara</item>
+        <item>Teekoy</item>
+        <item>Thidanad</item>
+    </string-array>
+    <string-array name="Changanassery">
+        <item>All</item>
+        <item>Changanassery Municipality</item>
+        <item>Kurichy</item>
+        <item>Madappally</item>
+        <item>Paippad</item>
+        <item>Thrikkodithanam</item>
+        <item>Vazhappally</item>
+    </string-array>
+    <string-array name="Ettumanoor">
+        <item>All</item>
+        <item>Aymanam</item>
+        <item>Arpookara</item>
+        <item>Athirampuzha</item>
+        <item>Ettumanoor</item>
+        <item>Kumarakom</item>
+        <item>Neendoor</item>
+        <item>Thiruvarppu</item>
+    </string-array>
+    <string-array name="Kottayam">
+        <item>All</item>
+        <item>Kottayam Municipality</item>
+        <item>Kumaranalloor</item>
+        <item>Nattakom</item>
+        <item>Panachikkad</item>
+        <item>Vijayapuram</item>
+    </string-array>
+    <string-array name="Puthuppally">
+        <item>All</item>
+        <item>Akalakunnam</item>
+        <item>Ayarkunnam</item>
+        <item>Kooroppada</item>
+        <item>Manarcad</item>
+        <item>Meenadom</item>
+        <item>Pampady</item>
+        <item>Puthuppally</item>
+        <item>Vakathanam</item>
+    </string-array>
+    <string-array name="Pala">
+        <item>All</item>
+        <item>Pala Municipality</item>
+        <item>Bharananganam</item>
+        <item>Kadanad</item>
+        <item>Karoor</item>
+        <item>Kozhuvanal</item>
+        <item>Meenachil</item>
+        <item>Melukavu</item>
+        <item>Moonnilavu</item>
+        <item>Mutholy</item>
+        <item>Ramapuram</item>
+        <item>Thalanad</item>
+        <item>Thalappalam</item>
+        <item>Elikkulam</item>
+    </string-array>
+    <string-array name="Kaduthuruthy">
+        <item>All</item>
+        <item>Kadaplamattom</item>
+        <item>Kanakkari</item>
+        <item>Kidangoor</item>
+        <item>Kuravilangad</item>
+        <item>Marangattupilly</item>
+        <item>Uzhavoor</item>
+        <item>Veliyannoor</item>
+        <item>Kaduthuruthy</item>
+        <item>Manjoor</item>
+        <item>Mulakulam</item>
+        <item>Neezhoor</item>
+    </string-array>
+    <string-array name="Vaikom">
+        <item>All</item>
+        <item>Vaikom Municipality</item>
+        <item>Chempu</item>
+        <item>Kallara</item>
+        <item>Maravanthuruthu</item>
+        <item>T.V. Puram</item>
+        <item>Thalayazham</item>
+        <item>Thalayolaparambu</item>
+        <item>Udayanapuram</item>
+        <item>Vechoor</item>
+        <item>Velloor</item>
+    </string-array>
+    <string-array name="Aroor">
+        <item>All</item>
+        <item>Arookutty</item>
+        <item>Aroor</item>
+        <item>Chennam-Pallippuram</item>
+        <item>Ezhupunna</item>
+        <item>Kodamthuruth</item>
+        <item>Kuthiathode</item>
+        <item>Panavally</item>
+        <item>Perumbalam</item>
+        <item>Thycattussery</item>
+        <item>Thuravoor</item>
+    </string-array>
+    <string-array name="Cherthala">
+        <item>All</item>
+        <item>Cherthala Municipality</item>
+        <item>Cherthala South</item>
+        <item>Kadakkarappally</item>
+        <item>Kanjikkuzhi</item>
+        <item>Muhamma</item>
+        <item>Pattanakkad</item>
+        <item>Thanneermukkam</item>
+        <item>Vayalar</item>
+    </string-array>
+    <string-array name="Alappuzha">
+        <item>All</item>
+        <item>Alappuzha Municipality Wards no. 1-19</item>
+        <item>Alappuzha Municipality Wards no 45-50</item>
+        <item>Aryad</item>
+        <item>Mannanchery</item>
+        <item>Mararikkulam South</item>
+        <item>Mararikkulam North</item>
+    </string-array>
+    <string-array name="Ambalappuzha">
+        <item>All</item>
+        <item>Alappuzha Municipality Wards no. 20 to 44</item>
+        <item>Ambalappuzha North</item>
+        <item>Ambalappuzha South</item>
+        <item>Punnapra North</item>
+        <item>Punnapra South</item>
+        <item>Purakkad</item>
+    </string-array>
+    <string-array name="Kuttanad">
+        <item>All</item>
+        <item>Champakkulam</item>
+        <item>Edathua</item>
+        <item>Kainakary</item>
+        <item>Kavalam</item>
+        <item>Muttar</item>
+        <item>Nedumudi</item>
+        <item>Neelamperoor</item>
+        <item>Pulinkunnu</item>
+        <item>Ramankary</item>
+        <item>Thakazhy</item>
+        <item>Thalavady</item>
+        <item>Veliyanad</item>
+        <item>Veeyapuram</item>
+    </string-array>
+    <string-array name="Haripad">
+        <item>All</item>
+        <item>Arattupuzha</item>
+        <item>Cheppad</item>
+        <item>Cheruthana</item>
+        <item>Chingoli</item>
+        <item>Haripad</item>
+        <item>Karthikappally</item>
+        <item>Karuvatta</item>
+        <item>Kumarapuram</item>
+        <item>Muthukulam</item>
+        <item>Pallippad</item>
+        <item>Thrikkunnapuzha</item>
+    </string-array>
+    <string-array name="Kayamkulam">
+        <item>All</item>
+        <item>Kayamkulam Municipality</item>
+        <item>Devikulangara</item>
+        <item>Kandalloor</item>
+        <item>Krishnapuram</item>
+        <item>Pathiyoor</item>
+        <item>Bharanikkavu</item>
+        <item>Chettikulangara</item>
+    </string-array>
+    <string-array name="Chengannur">
+        <item>All</item>
+        <item>Chengannur Municipality</item>
+        <item>Ala</item>
+        <item>Budhanoor</item>
+        <item>Cheriyanad</item>
+        <item>Mannar</item>
+        <item>Mulakuzha</item>
+        <item>Pandanad</item>
+        <item>Puliyoor</item>
+        <item>Thiruvanvandoor</item>
+        <item>Venmony</item>
+        <item>Chennithala-Thriperumthura</item>
+    </string-array>
+    <string-array name="Mavelikkara">
+        <item>All</item>
+        <item>Mavelikkara Municipality</item>
+        <item>Chunakkara</item>
+        <item>Mavelikkara-Thekkekara</item>
+        <item>Mavelikkara-Thamarakkulam</item>
+        <item>Nooranad</item>
+        <item>Palamel</item>
+        <item>Thazhakara</item>
+    </string-array>
+    <string-array name="Thiruvalla">
+        <item>All</item>
+        <item>Thiruvalla Municipality</item>
+        <item>Kadapra</item>
+        <item>Kaviyoor</item>
+        <item>Kuttoor</item>
+        <item>Nedumpram</item>
+        <item>Niranam</item>
+        <item>Peringara</item>
+        <item>Anicadu</item>
+        <item>Kallooppara</item>
+        <item>Mallappally</item>
+        <item>Puramattom</item>
+        <item>Kunnamthanam</item>
+    </string-array>
+    <string-array name="Ranni">
+        <item>All</item>
+        <item>Ezhumattoor</item>
+        <item>Kottanad</item>
+        <item>Kottangal</item>
+        <item>Ayiroor</item>
+        <item>Naranammoozhi</item>
+        <item>Ranni-Angadi</item>
+        <item>Ranni-Pazhavangadi</item>
+        <item>Ranni-Perunad</item>
+        <item>Cherukole</item>
+        <item>Ranni</item>
+        <item>Vadasserikkara</item>
+        <item>Vechoochira</item>
+    </string-array>
+    <string-array name="Aranmula">
+        <item>All</item>
+        <item>Pathanamthitta Municipality</item>
+        <item>Aranmula</item>
+        <item>Chenneerkara</item>
+        <item>Elanthoor</item>
+        <item>Kozhenchery</item>
+        <item>Kulanada</item>
+        <item>Mallapuzhassery</item>
+        <item>Mezhuveli</item>
+        <item>Naranganam</item>
+        <item>Omalloor</item>
+        <item>Eraviperoor</item>
+        <item>Koipram</item>
+        <item>Thottapuzhassery</item>
+    </string-array>
+    <string-array name="Adoor">
+        <item>All</item>
+        <item>Adoor Municipality</item>
+        <item>Pandalam</item>
+        <item>Thumbamon</item>
+        <item>Pandalam Thekkekara</item>
+        <item>Kodumon</item>
+        <item>Ezhamkulam</item>
+        <item>Erathu</item>
+        <item>Pallickal</item>
+        <item>Kadampanadu</item>
+    </string-array>
+    <string-array name="Konni">
+        <item>All</item>
+        <item>Aruvappulam</item>
+        <item>Konni</item>
+        <item>Malayalapuzha</item>
+        <item>Pramadom</item>
+        <item>Mylapra</item>
+        <item>Vallicode</item>
+        <item>Thannithode</item>
+        <item>Enadimangalam</item>
+        <item>Kalanjoor</item>
+        <item>Chittar</item>
+        <item>Seethathodu</item>
+    </string-array>
+    <string-array name="Pathanapuram">
+        <item>All</item>
+        <item>Melila</item>
+        <item>Vettikkavala</item>
+        <item>Pathanapuram</item>
+        <item>Pattazhy</item>
+        <item>Pattazhy Vadakkekara</item>
+        <item>Piravanthoor</item>
+        <item>Thalavoor</item>
+        <item>Vilakkudy</item>
+    </string-array>
+    <string-array name="Kottarakkara">
+        <item>All</item>
+        <item>Ezhukone</item>
+        <item>Kareepra</item>
+        <item>Kottarakkara</item>
+        <item>Kulakkada</item>
+        <item>Mylom</item>
+        <item>Neduvathur</item>
+        <item>Ummannoor</item>
+        <item>Veliyam</item>
+    </string-array>
+    <string-array name="Chadayamangalam">
+        <item>All</item>
+        <item>Alayamon</item>
+        <item>Chadayamangalam</item>
+        <item>Chithara</item>
+        <item>Elamad</item>
+        <item>Ittiva</item>
+        <item>Kadakkal</item>
+        <item>Nilamel</item>
+        <item>Velinalloor</item>
+    </string-array>
+    <string-array name="Kunnathur">
+        <item>All</item>
+        <item>East Kallada</item>
+        <item>Mundrothuruth</item>
+        <item>Kunnathur</item>
+        <item>Mynagappally</item>
+        <item>Poruvazhy</item>
+        <item>Sasthamcotta</item>
+        <item>Sooranad North</item>
+        <item>Sooranad South</item>
+        <item>West Kallada</item>
+        <item>Pavithreswaram</item>
+    </string-array>
+    <string-array name="Karunagappally">
+        <item>All</item>
+        <item>Alappad</item>
+        <item>Clappana</item>
+        <item>Kulasekharapuram</item>
+        <item>Oachira</item>
+        <item>Thazhava</item>
+        <item>Thodiyoor</item>
+        <item>Karunagappally</item>
+    </string-array>
+    <string-array name="Chavara">
+        <item>All</item>
+        <item>Kollam  (M. Corporation) Wards No.1 to 5</item>
+        <item>Kollam  (M. Corporation) Wards No. 49</item>
+        <item>Kollam  (M. Corporation) Wards No. 50</item>
+        <item>Chavara</item>
+        <item>Neendakara</item>
+        <item>Panmana</item>
+        <item>Thekkumbhagom</item>
+        <item>Thevalakkara</item>
+    </string-array>
+    <string-array name="Kundara">
+        <item>All</item>
+        <item>Elampalloor</item>
+        <item>Kottamkara</item>
+        <item>Kundara</item>
+        <item>Nedumpana</item>
+        <item>Perayam Perinad</item>
+        <item>Thrikkovilvattom</item>
+    </string-array>
+    <string-array name="Kollam">
+        <item>All</item>
+        <item>Panayam Thrikkadavoor</item>
+        <item>Thrikkaruva</item>
+        <item>Kollam (M. Corporation) Ward No.6  to 13</item>
+        <item>Kollam (M. Corporation) Ward No 16 to 19</item>
+        <item>Kollam (M. Corporation) Ward No 42 to 48</item>
+    </string-array>
+    <string-array name="Eravipuram">
+        <item>All</item>
+        <item>Kollam (M. Corporation) Wards No.14</item>
+        <item>Kollam (M. Corporation) Wards No.15 and 20</item>
+        <item>Kollam (M. Corporation) Wards No. 41</item>
+        <item>Mayyanad</item>
+    </string-array>
+    <string-array name="Chathannoor">
+        <item>All</item>
+        <item>Paravoor Municipality</item>
+        <item>Adichanalloor</item>
+        <item>Chathannoor</item>
+        <item>Kalluvathukkal</item>
+        <item>Poothakkulam</item>
+        <item>Pooyappally</item>
+    </string-array>
+    <string-array name="Punalur">
+        <item>All</item>
+        <item>Punalur Municipality</item>
+        <item>Anchal</item>
+        <item>Ariyankavu</item>
+        <item>Edamulakkal</item>
+        <item>Eroor</item>
+        <item>Karavaloor</item>
+        <item>Kulathupuzha</item>
+        <item>Thenmala</item>
+    </string-array>
+    <string-array name="Attingal">
+        <item>All</item>
+        <item>Attingal Municipality</item>
+        <item>Cherunniyoor</item>
+        <item>Karavaram</item>
+        <item>Kilimanoor</item>
+        <item>Manamboor</item>
+        <item>Nagaroor</item>
+        <item>Ottoor</item>
+        <item>Pazhayakunnummel</item>
+        <item>Pulimath</item>
+        <item>Vakkom</item>
+    </string-array>
+    <string-array name="Chirayinkeezhu">
+        <item>All</item>
+        <item>Anjuthengu</item>
+        <item>Azhoor</item>
+        <item>Chirayinkeezhu</item>
+        <item>Kadakkavoor</item>
+        <item>Kizhuvilam</item>
+        <item>Mudakkal</item>
+        <item>Kadinamkulam</item>
+        <item>Mangalapuram</item>
+    </string-array>
+    <string-array name="Nedumangad">
+        <item>All</item>
+        <item>Nedumangad Municipality</item>
+        <item>Manikkal</item>
+        <item>Karakulam</item>
+        <item>Andoorkonam</item>
+        <item>Pothencode</item>
+        <item>Vembayam</item>
+    </string-array>
+    <string-array name="Vamanapuram">
+        <item>All</item>
+        <item>Nellanad</item>
+        <item>Pullampara</item>
+        <item>Vamanapuram</item>
+        <item>Anad</item>
+        <item>Kallara</item>
+        <item>Nanniyode</item>
+        <item>Panavoor</item>
+        <item>Pangode</item>
+        <item>Peringamala</item>
+    </string-array>
+    <string-array name="Aruvikkara">
+        <item>All</item>
+        <item>Aruvikkara</item>
+        <item>Aryanad</item>
+        <item>Tholicode</item>
+        <item>Vithura</item>
+        <item>Kuttichal</item>
+        <item>Poovachal</item>
+        <item>Vellanad</item>
+        <item>Uzhamalackal</item>
+    </string-array>
+    <string-array name="Kazhakoottam">
+        <item>All</item>
+        <item>Kazhakoottam</item>
+        <item>Sreekaryam</item>
+        <item>Tvpm  (M. Corporation) Wards No. 1 to 12</item>
+        <item>Tvpm  (M. Corporation) Wards No 14</item>
+        <item>Tvpm  (M. Corporation) Wards No 76</item>
+        <item>Tvpm  (M. Corporation) Wards No 79 to 81</item>
+    </string-array>
+    <string-array name="Vattiyoorkavu">
+        <item>All</item>
+        <item>Tvpm  (M. Corporation) Wards No. 13</item>
+        <item>Tvpm  (M. Corporation) Wards No 15 to 25</item>
+        <item>Tvpm  (M. Corporation) Wards No 31</item>
+        <item>Tvpm  (M. Corporation) Wards No 36</item>
+        <item>Kudappanakunnu</item>
+        <item>Vattiyoorkavu</item>
+    </string-array>
+    <string-array name="Thiruvananthapuram">
+        <item>All</item>
+        <item>Tvpm (M.Corporation) Wards No.26 to 30</item>
+        <item>Tvpm  (M. Corporation) Wards No 40 to 47</item>
+        <item>Tvpm  (M. Corporation) Wards No 59</item>
+        <item>Tvpm  (M. Corporation) Wards No 60</item>
+        <item>Tvpm  (M. Corporation) Wards No 69 to 75</item>
+        <item>Tvpm  (M. Corporation) Wards No 77</item>
+        <item>Tvpm  (M. Corporation) Wards No 78 to 80</item>
+    </string-array>
+    <string-array name="Nemom">
+        <item>All</item>
+        <item>Tvpm (M. Corporation) Wards No.37 to 39</item>
+        <item>Tvpm (M. Corporation) Wards No.48 to 58</item>
+        <item>Tvpm (M. Corporation) Wards No.61 to 68</item>
+    </string-array>
+    <string-array name="Parassala">
+        <item>All</item>
+        <item>Amboori</item>
+        <item>Aryancode</item>
+        <item>Kallikkad</item>
+        <item>Kollayil</item>
+        <item>Kunnathukal</item>
+        <item>Ottasekharamangalam</item>
+        <item>Parassala</item>
+        <item>Perumkadavila</item>
+        <item>Vellarada</item>
+    </string-array>
+    <string-array name="Kovalam">
+        <item>All</item>
+        <item>Balaramapuram</item>
+        <item>Kalliyoor</item>
+        <item>Venganoor</item>
+        <item>Balaramapuram</item>
+        <item>Kanjiramkulam</item>
+        <item>Karumkulam</item>
+        <item>Kottukal</item>
+        <item>Poovar</item>
+        <item>Vizhinjam</item>
+    </string-array>
+    <string-array name="Neyyattinkara">
+        <item>All</item>
+        <item>Neyyattinkara Municipality</item>
+        <item>Athiyannur</item>
+        <item>Chenkal</item>
+        <item>Karode</item>
+        <item>Kulathoor</item>
+        <item>Thirupuram</item>
+    </string-array>
+    <string-array name="Varkala">
+        <item>All</item>
+        <item>Varkala Municipality</item>
+        <item>Chemmaruthy</item>
+        <item>Edava</item>
+        <item>Elakamon</item>
+        <item>Madavoor</item>
+        <item>Navaikulam</item>
+        <item>Pallickal</item>
+        <item>Vettoor</item>
+    </string-array>
+    <string-array name="Kattakkada">
+        <item>All</item>
+        <item>Kattakkada</item>
+        <item>Malayinkeezhu</item>
+        <item>Maranalloor</item>
+        <item>Pallichal</item>
+        <item>Vilappil</item>
+        <item>Vilavoorkal</item>
+    </string-array>
+
+    <string-array name="Kasaragod_D">
+        <item>	1- Manjeshwar	</item>
+        <item>	2- Kasaragod	</item>
+        <item>	3- Udma	</item>
+        <item>	4-  Kanhangad	</item>
+        <item>	5- Trikaripur	</item>
+    </string-array>
+    <string-array name="Kannur_D">
+        <item>	6- Payyannur	</item>
+        <item>	7- Kalliasseri	</item>
+        <item>	8- Taliparamba	</item>
+        <item>	9- Irikkur	</item>
+        <item>	10- Azhikode	</item>
+        <item>	11- Kannur	</item>
+        <item>	12- Dharmadam	</item>
+        <item>	13- Thalassery	</item>
+        <item>	14- Kuthuparamba	</item>
+        <item>	15- Mattannur	</item>
+        <item>	16- Peravoor	</item>
+    </string-array>
+    <string-array name="Wayanad_D">
+        <item>	17- Mananthavady	</item>
+        <item>	18- Sulthanbathery	</item>
+        <item>	19- Kalpetta	</item>
+    </string-array>
+    <string-array name="Kozhikode_D">
+        <item>	20- Vadakara	</item>
+        <item>	21- Kuttiadi	</item>
+        <item>	22- Nadapuram	</item>
+        <item>	23- Quilandy	</item>
+        <item>	24- Perambra	</item>
+        <item>	25- Balusseri	</item>
+        <item>	26- Elathur	</item>
+        <item>	27- Kozhikode North	</item>
+        <item>	28- Kozhikode South	</item>
+        <item>	29- Beypore	</item>
+        <item>	30- Kunnamangalam	</item>
+        <item>	31- Koduvally	</item>
+        <item>	32- Thiruvambadi	</item>
+    </string-array>
+    <string-array name="Malappuram_D">
+        <item>	33- Kondotty	</item>
+        <item>	34- Ernad	</item>
+        <item>	35- Nilambur	</item>
+        <item>	36- Wandoor	</item>
+        <item>	37- Manjeri	</item>
+        <item>	38- Perinthalmanna 	</item>
+        <item>	39- Mankada	</item>
+        <item>	40- Malappuram	</item>
+        <item>	41- Vengara	</item>
+        <item>	42- Vallikkunnu	</item>
+        <item>	43- Tirurangadi	</item>
+        <item>	44- Tanur	</item>
+        <item>	45- Tirur	</item>
+        <item>	46- Kottakkal	</item>
+        <item>	47- Thavanur	</item>
+        <item>	48- Ponnani	</item>
+    </string-array>
+    <string-array name="Palakkad_D">
+        <item>	49- Thrithala	</item>
+        <item>	50- Pattambi	</item>
+        <item>	51- Shoranur	</item>
+        <item>	52- Ottappalam	</item>
+        <item>	53- Kongad	</item>
+        <item>	54- Mannarkkad	</item>
+        <item>	55- Malampuzha	</item>
+        <item>	56- Palakkad	</item>
+        <item>	57- Tarur	</item>
+        <item>	58- Chittur	</item>
+        <item>	59- Nemmara	</item>
+        <item>	60- Alathur	</item>
+    </string-array>
+    <string-array name="Thrissur_D">
+        <item>	61- Chelakkara	</item>
+        <item>	62- Kunnamkulam	</item>
+        <item>	63- Guruvayoor	</item>
+        <item>	64- Manalur	</item>
+        <item>	65- Wadakkanchery	</item>
+        <item>	66- Ollur	</item>
+        <item>	67- Thrissur	</item>
+        <item>	68- Nattika	</item>
+        <item>	69- Kaipamangalam	</item>
+        <item>	70- Irinjalakuda	</item>
+        <item>	71- Pudukkad	</item>
+        <item>	72- Chalakudy	</item>
+        <item>	73- Kodungallur	</item>
+    </string-array>
+    <string-array name="Ernakulam_D">
+        <item>	74- Perumbavoor	</item>
+        <item>	75- Angamaly	</item>
+        <item>	76- Aluva	</item>
+        <item>	77- Kalamassery	</item>
+        <item>	78- Paravur	</item>
+        <item>	79- Vypeen	</item>
+        <item>	80- Kochi	</item>
+        <item>	81- Tripunithura	</item>
+        <item>	82- Ernakulam	</item>
+        <item>	83- Thrikkakara	</item>
+        <item>	84- Kunnathunad	</item>
+        <item>	85- Piravom	</item>
+        <item>	86- Muvattupuzha	</item>
+        <item>	87- Kothamangalam	</item>
+    </string-array>
+    <string-array name="Idukki_D">
+        <item>	88- Devikulam	</item>
+        <item>	89- Udumbanchola	</item>
+        <item>	90- Thodupuzha	</item>
+        <item>	91- Idukki	</item>
+        <item>	92- Peerumade	</item>
+    </string-array>
+    <string-array name="Kottayam_D">
+        <item>	93- Pala	</item>
+        <item>	94- Kaduthuruthy	</item>
+        <item>	95- Vaikom	</item>
+        <item>	96- Ettumanoor	</item>
+        <item>	97- Kottayam	</item>
+        <item>	98- Puthuppally	</item>
+        <item>	99- Changanassery	</item>
+        <item>	100- Kanjirappally	</item>
+        <item>	101- Poonjar	</item>
+    </string-array>
+    <string-array name="Alappuzha_D">
+        <item>	102- Aroor	</item>
+        <item>	103- Cherthala	</item>
+        <item>	104- Alappuzha	</item>
+        <item>	105- Ambalappuzha	</item>
+        <item>	106- Kuttanad	</item>
+        <item>	107- Haripad	</item>
+        <item>	108- Kayamkulam	</item>
+        <item>	109- Mavelikkara	</item>
+        <item>	110- Chengannur	</item>
+    </string-array>
+    <string-array name="Pathanamthitta_D">
+        <item>	111- Thiruvalla	</item>
+        <item>	112- Ranni	</item>
+        <item>	113- Aranmula	</item>
+        <item>	114- Konni	</item>
+        <item>	115- Adoor	</item>
+    </string-array>
+    <string-array name="Kollam_D">
+        <item>	116- Karunagappally	</item>
+        <item>	117- Chavara	</item>
+        <item>	118- Kunnathur	</item>
+        <item>	119- Kottarakkara	</item>
+        <item>	120- Pathanapuram	</item>
+        <item>	121- Punalur	</item>
+        <item>	122- Chadayamangalam	</item>
+        <item>	123- Kundara	</item>
+        <item>	124- Kollam	</item>
+        <item>	125- Eravipuram	</item>
+        <item>	126- Chathannoor	</item>
+    </string-array>
+    <string-array name="Thiruvananthapuram_D">
+        <item>	127- Varkala	</item>
+        <item>	128- Attingal	</item>
+        <item>	129- Chirayinkeezhu	</item>
+        <item>	130- Nedumangad	</item>
+        <item>	131- Vamanapuram	</item>
+        <item>	132- Kazhakoottam	</item>
+        <item>	133- Vattiyoorkavu	</item>
+        <item>	134- Thiruvananthapuram	</item>
+        <item>	135- Nemom	</item>
+        <item>	136- Aruvikkara	</item>
+        <item>	137- Parassala	</item>
+        <item>	138- Kattakkada	</item>
+        <item>	139- Kovalam	</item>
+        <item>140- Neyyattinkara</item>
+    </string-array>
+    <string-array name="district">
+        <item>Alappuzha</item>
+        <item>Ernakulam</item>
+        <item>Idukki</item>
+        <item>Kannur</item>
+        <item>Kasaragod</item>
+        <item>Kollam</item>
+        <item>Kottayam</item>
+        <item>Kozhikode</item>
+        <item>Malappuram</item>
+        <item>Palakkad</item>
+        <item>Pathanamthitta</item>
+        <item>Thiruvananthapuram</item>
+        <item>Thrissur</item>
+        <item>Wayanad</item>
+    </string-array>
+</resources>

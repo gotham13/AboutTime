@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.aap.aapapp.org.aap.aapapp.Lac_database">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:id="@+id/lac_obs_name"
+            />
+
+        <TextView
+            android:id="@+id/pc_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="24dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/lac_name"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"><![CDATA[
+        TextView
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Enter LAC"
+            android:textSize="24dp"/>
+        ]]></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Enter SECTOR"
+            android:textSize="24dp"/>
+        <Spinner
+            android:id="@+id/spinner_sector"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF"
+            android:text="SUBMIT"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/check"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/aam_aadmi"
+                android:onClick="RadioButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="AAM AADMI"/>
+
+            <RadioButton
+                android:id="@+id/member"
+                android:onClick="RadioButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="MEMBER"/>
+            <RadioButton
+                android:id="@+id/volunteer"
+                android:onClick="RadioButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="VOLUNTEER"/>
+
+
+
+        </RadioGroup>
+        <CheckBox
+            android:id="@+id/donor"
+            android:layout_width="wrap_content"
+            android:text="DONOR"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:text="COUNT"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/count"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="24dp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/member_lac_listview"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:onClick="sector_observer"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/add_fab"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="add"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/fab"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

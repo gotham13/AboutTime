@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.google.firebase.udacity.friendlychat.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Enter PC"
+                android:textSize="24dp"/>
+            <Spinner
+                android:id="@+id/spinner_pc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></Spinner>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Enter LAC"
+            android:textSize="24dp"/>
+        <Spinner
+            android:id="@+id/spinner_lac"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Enter SECTOR"
+            android:textSize="24dp"/>
+        <Spinner
+            android:id="@+id/spinner_sector"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="match_parent"
+            android:text="SUBMIT"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <RadioGroup
+            android:id="@+id/radio_check"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+
+            <RadioButton
+                android:id="@+id/aam_aadmi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="RadioButtonClick"
+                android:layout_height="wrap_content"
+                android:text="AAM AADMI"/>
+            <RadioButton
+                android:id="@+id/member"
+                android:onClick="RadioButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="MEMBER"/>
+            <RadioButton
+                android:id="@+id/volunteer"
+                android:onClick="RadioButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="VOLUNTEER"/>
+
+
+
+        </RadioGroup>
+        <CheckBox
+            android:id="@+id/donor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DONOR"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:text="COUNT"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/count"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:layout_height="24dp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/member_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab1"
+                android:src="@drawable/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

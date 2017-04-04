@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:paddingBottom="10dp"
+    android:layout_marginBottom="20dp"
+    >
+    <ImageView
+        android:id="@+id/call_icon2"
+        android:src="@drawable/ic_phone_white_36dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:tint="#5cc717"
+        android:layout_alignTop="@+id/call_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="111dp"
+        android:layout_marginStart="111dp" />
+
+    <TextView
+        android:text="SKIP CALL"
+        android:layout_marginTop="2dp"
+        android:textColor="#fa4d17"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/call_icon" />
+
+    <ImageView
+        android:id="@+id/call_icon"
+        android:src="@drawable/ic_phone_white_36dp"
+        android:tint="#fa4d17"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView31"
+        android:layout_alignStart="@+id/textView31" />
+
+    <TextView
+        android:text="  CALL"
+        android:padding="2dp"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/call_icon2"
+        android:id="@+id/textView36"
+        android:textColor="#5cc717"
+        android:layout_alignLeft="@+id/call_icon2"
+        android:layout_alignStart="@+id/call_icon2"
+        android:layout_alignRight="@+id/call_icon2"
+        android:layout_alignEnd="@+id/call_icon2" />
+</RelativeLayout>
+</RelativeLayout>
